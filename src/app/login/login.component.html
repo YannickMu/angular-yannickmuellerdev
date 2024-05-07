@@ -1,0 +1,15 @@
+<div id="Container">
+    <form class="form">
+        <div id="login-lable">
+            Login | <a href="/signup">Registrieren</a>
+        </div>
+        <input type="text" placeholder="Benutzername" name="username" />
+        <div class="break"></div>
+        <input type="password" placeholder="Passwort" name="passwd" />
+        <div class="break"></div>
+        <div style="display: flex;">
+            <button type="button" (click)="login()">Login!</button>
+            <button type="button" (click)="backhome()">Zurück</button>
+        </div>
+    </form>
+</div>

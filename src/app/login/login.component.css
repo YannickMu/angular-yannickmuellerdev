@@ -1,0 +1,77 @@
+label {
+    margin-bottom: -5vh;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="tel"] {
+    border: none;
+    border-bottom: 2px solid var(--text);
+    color: var(--text);
+    background: var(--bg-c);
+    margin-top: 5vh;
+    max-width: 85vw;
+    min-width: 20vw;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="tel"] {
+    outline: none;
+}
+
+button[type="submit"],
+button[type="button"] {
+    transition-duration: 1s;
+    border: none;
+    border-bottom: 2px solid var(--text);
+    background: var(--bg-c);
+    min-width: 10vw;
+    max-width: 42.5vw;
+    margin-top: 5vh;
+    margin-left: 0.25%;
+    margin-right: 0.25%;
+    color: var(--text);
+    font-size: 14pt;
+    font-weight: 700;
+}
+
+button[type="submit"]:hover,
+button[type="button"]:hover {
+    transition-duration: 1s;
+    border-bottom: 2px solid var(--text);
+    background: var(--text);
+    min-width: 10vw;
+    max-width: 42.5vw;
+    margin-top: 5vh;
+    margin-left: 0.25%;
+    margin-right: 0.25%;
+    color: var(--bg-c);
+    font-size: 14pt;
+    font-weight: 700;
+}
+
+.error {
+    color: rgb(255, 55, 55);
+}
+
+#login-lable {
+    font-size: 18pt;
+    font-weight: 850;
+    text-align: center;
+    color: var(--text);
+}
+
+.form {
+    margin-top: 5vh;
+    padding: 5vw;
+    border: 3px solid var(--text);
+    border-radius: 10px;
+}
+
+.captcha {
+    margin-top: 5vh;
+}
+
